@@ -1,0 +1,16 @@
+ Volume in drive F has no label.
+ Volume Serial Number is 1656-1188
+
+ Directory of F:\My Resume\Part-time_Job
+
+29-12-2023  16:31    <DIR>          .
+27-12-2023  20:04    <DIR>          ..
+28-12-2023  16:04             8,892 Book1.xlsx
+29-12-2023  16:31                 0 Cheat_Sheet.txt
+10-12-2023  13:17                66 myCalculator.java
+12-11-2023  20:31           610,725 Resume.docx
+12-11-2023  20:32            53,837 Resume.pdf
+10-12-2023  13:15                10 test1.txt
+07-12-2023  16:56               486 test2.html
+               7 File(s)        674,016 bytes
+               2 Dir(s)  67,318,784,000 bytes free
