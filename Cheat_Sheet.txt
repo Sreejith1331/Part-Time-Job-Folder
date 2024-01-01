@@ -14,3 +14,22 @@
 07-12-2023  16:56               486 test2.html
                7 File(s)        674,016 bytes
                2 Dir(s)  67,318,784,000 bytes free
+
+git config --global user.email "sreejithpottikuzhi11@gmail.com"
+git config --global user.name "Sreejith1331"
+git init
+git add
+git commit -m "commit message"
+git remote add origin https://github.com/Sreejith1331/MyFirstRepository
+git push -u origin master
+git status
+git branch myChildBranch1
+git checkout myChildBranch1
+git push -u origin myChildBranch1
+git checkout master
+git merge myChildBranch1
+git push -u origin master
+git branch -d myChildBranch1
+git push origin --delete myChildBranch1
+
+
