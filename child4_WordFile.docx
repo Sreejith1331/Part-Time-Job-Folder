@@ -1,0 +1,11 @@
+child4.docx  child4.txt
+Git and GitHub
+Git
+Git is a version control system to track the changes in our source code, files and folder. VCS are of two types
+1.Centralized VCS
+2.Distributed VCS
+
+Git is an example for DVCS and Subversion is an example for CVCS.
+
+GitHub
+Github is an online repository management system. In simple words, github is a website where we can upload our repositories. Github act as a back up to our repositories. Github provides visual interface to our repositories. In github we can make our repositories as private or public. So github makes collaboration easier. Bigbucket is another example of online repository management system.

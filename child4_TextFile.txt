@@ -1,0 +1,36 @@
+child4.txt
+Git comments
+-------------
+1. git status
+2. git add .
+3. git commit -m "commit message"
+4. git remote add origin https://github.com/Sreejith1331/Part_time_job
+5. git push -u origin master
+6. git config --global user.email "sreejithpottikuzhi11@gmail.com"
+7. git config --global user.name "Sreejith1331"
+8. git branch chilBranch1
+9. git checkout childBranch1
+10. git push -u origin childBranch1
+11. git checkout master
+12. git merge childBranch1
+13. git push -u origin master
+14. git branch -d childBranch1
+15. git push origin --delete childBranch1
+16. git tag v1.0
+17. git tag
+18. git tag -a v1.1 -m "annotative tag"
+19. git tag -l "v*"
+20. git push origin v1.0
+21. git push origin --tags
+22. git push --tags
+23. git tag -d v1.0
+24. git tag --delete v1.1
+25. git tag -d v1.0 v1.1
+26. git tag --delete v1.0 v1.1
+27. git push origin -d v1.0
+28. git push origin --delete v1.1
+29. git push origin :v1.0
+30. git push origin -d v1.0 v1.1
+31. git push origin --delete v1.0 v1.1
+32. git branch -b childBranch1.0.0 v1.0 
+

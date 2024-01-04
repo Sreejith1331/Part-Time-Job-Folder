@@ -1,0 +1,5 @@
+child4.docx  child4.txt  child4.xlsx  child5.txt
+Git and GitHub tutorial in Automation step-by-step
+
+Source Code--<git add>--staging area--<git commit>--local repository--<git push>--remote repository
+Remote repository--<git pull/fetch/clone>--local repository--<git checkout>--Working directory
