@@ -1,0 +1,60 @@
+name: example-basic
+'on':
+  push:
+    branches:
+      - master
+  pull_request: null
+  workflow_dispatch: null
+jobs:
+  basic-ubuntu-20:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress tests
+        uses: ./
+        with:
+          working-directory: examples/basic
+          build: npx cypress info
+  basic-ubuntu-22:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress tests
+        uses: ./
+        with:
+          working-directory: examples/basic
+          build: npx cypress info
+  basic-on-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress tests
+        uses: ./
+        with:
+          working-directory: examples/basic
+          build: npx cypress info
+  basic-on-mac:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress tests
+        uses: ./
+        with:
+          working-directory: examples/basic
+          build: npx cypress info
+  basic-without-binary-install:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress tests
+        uses: ./
+        with:
+          working-directory: examples/basic
+          runTests: false
+        env:
+          CYPRESS_INSTALL_BINARY: 0
